@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    background-color: gray;
+}
+
+header{
+    padding: 15px;
+    background-color: lightgrey;
+}
+
+section{
+    color: white;
+    padding: 30px;
+}
+
+p{
+    margin-bottom: 150px;
+}
