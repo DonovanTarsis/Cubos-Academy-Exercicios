@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    text-decoration: none;
+}
+section.hero{
+    background-image: url(/casa-03/assets/image-header.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100VW;
+    height: 100vh;
+}
+.hero > img {
+    margin-bottom: 40vh;
+    width:  4%;
+    height: 24%;
+}
+.hero > h1{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fff;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 69px;
+}
+.hero > header{
+    margin-top: 2vh;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100vw;
+    height: 10vh;
+}
+header > p.first{
+    margin-left: auto;
+}
+header > p{
+    color: #fff;
+    margin-right: 2vw;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+header > a{
+    margin-right: 3vh;
+    color: #24303E;
+    background-color: #fff;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 16px 30px;
+    border-radius: 50px;
+}
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+main > div{
+    width: 100vw;
+    height: 37.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div > div{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+div.egg > img{
+    width: 50%;
+}
+div.copo > img{
+    width: 50%;
+}
+main h1{
+    text-align: left;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 15%;
+}
+main p{
+    font-family: 'Barlow', sans-serif;;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 10%;
+}
+main a{
+    color: #000;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+}
+div.baixo-l{
+    background-image: url(/casa-03/assets/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div.baixo-r{
+    background-image: url(/casa-03/assets/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div h5{
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 3%;
+    margin-top: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+div span{
+    font-family: 'Barlow', sans-serif;;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.testimonials{
+    padding: 5vw;
+}
+.testimonials h1{
+    color: #A7AAAD;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.testimonials > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+.testimonials > div > div{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 2%;
+    flex-grow: 1;
+}
+.testimonials div img{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    margin-bottom: 10%;
+}
+.testimonials div p{
+    color: #5B636D;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 10%;
+}
+.testimonials div h3{
+    color: #24303E;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22.19px;
+    margin-bottom: 1%;
+}
+.testimonials div h6{
+    color: #A7AAAD;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+}
+.prefooter{
+    display: flex;
+    flex-direction: row;
+}
+.prefooter img{
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+}
+footer{
+    background-color: #90D4C6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9% 20%;
+}
+footer > div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+footer img, div, a{
+    margin: 0px;
+    padding: 0px;
+}
+footer > div > img{
+    margin-bottom: 20%;
+}
+div.links{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100vh;
+    margin-bottom: 10%;
+}
+div.links a{
+    display: inline-block;
+    color: #458D7E;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+div.redesSociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 75vh;
+}
+div.redesSociais img{
+    width: 5%;
+    height: 5%;
+}

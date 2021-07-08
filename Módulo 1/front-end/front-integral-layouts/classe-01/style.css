@@ -1,0 +1,143 @@
+/* font-family: 'Karla', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 635px;
+    height: 216px;
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: left;
+}
+h1.principal{
+    color: hsl(179, 62%, 43%);
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.06px;
+    margin-bottom: 11px;
+}
+h4{
+    color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.04px;
+    margin-bottom: 11px;
+}
+p.principal{
+    color: hsl(218, 22%, 67%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+aside{
+    display: flex;
+    width: 635px;
+    height: 259px;
+}
+div.card-l, div.card-r{
+    width: 318px;
+    height: 259px;
+    padding: 40px;
+    color: hsl(0, 0%, 100%);
+}
+div.card-l{
+    background-color: hsl(179, 62%, 43%);
+}
+.card-l > h3{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 18px;
+}
+.valor{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 4px;
+}
+.valor > h2{
+    font-family: 'Karla', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+}
+.valor > h6{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 11px;
+    opacity: 50%;
+}.card-l > p{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 26px;
+}
+.card-l > a{
+    display: inline-block;
+    width: 237px;
+    height: 48px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(71, 73%, 54%);
+    padding: 15px 88px;
+}
+div.card-r{
+    background-color:hsla(179, 62%, 43%, 0.850);
+}
+.card-r > h3{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 18px;
+}
+.card-r > p{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: hsla(0, 0%, 100%, 0.85)
+}
+
+/* ### Primárias
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutras
+
+- Light Gray: hsl(204, 43%, 93%)
+
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Tipografia
+
+### Body Copy
+
+- Font size: 16px
+
+### Fonte
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700 */

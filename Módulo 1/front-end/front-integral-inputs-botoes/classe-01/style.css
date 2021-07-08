@@ -1,0 +1,117 @@
+*{
+    margin: unset;
+    padding: unset;
+    text-decoration: unset;
+    color: unset;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9AA6CF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+main{
+    width: 693px;
+    height: 794px;
+    background-color: #fff;
+    padding: 70px 50px 50px;
+    border-radius: 15px;
+}
+h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0px 169px 50px;
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: initial;
+}
+h2{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+div.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+label{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 5px;
+}
+div.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+input{
+    all: unset;
+    box-sizing: border-box;
+    width: 288px;
+    height: 74px;
+    padding: 26px 25px;
+    border: #CED5EC solid 1px;
+    border-radius: 5px;
+}
+input#card-number{
+    width: 591px;
+    height: 74px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+}
+input:focus{
+    border: #5F82FF solid 3px;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+button{
+    all: unset;
+    box-sizing: border-box;
+    width: 592px;
+    height: 115px;
+    padding: 45px 256px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 10px;
+    background-color: hsl(227, 100%, 69%);
+}
+button:hover{
+    background-color: hsl(227, 93%, 49%)
+    ;
+}
+button:active{
+    background-color: hsl(227, 100%, 80%);
+}

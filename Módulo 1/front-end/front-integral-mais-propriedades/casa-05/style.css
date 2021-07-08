@@ -1,0 +1,119 @@
+body{
+    background-color: #FF7982;
+}
+div.geral{
+    color: #ffffff;
+    background-color: #F4F8FD;
+    background-image: url(assets/background.png);
+    background-size: 1440px 430px;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    min-height: 1928px;
+    padding-bottom: 53px;
+    margin: auto;
+    text-align: center;
+    margin-top: 72px;
+    padding-top: 0.1px;
+}
+div.geral > div.cima{
+    background-image: none;
+    font-family: 'Mulish', sans-serif;
+    padding: none;
+    margin: none;
+    background-color: #09183f80;
+    max-width: 645px;
+    min-height: 319px;
+    max-height: 319px;
+    margin: 58px auto 53px;
+}
+div.geral > div.cima > h1{
+    padding: none;
+    margin: none;
+    font-size: 36px;
+    max-width: 428px;
+    max-height: 46px;
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 57px;
+    margin: 57px 109px 10px 108px;
+}
+
+p.slogan{
+max-width: 530px;
+max-height: 84px;
+margin: 0px 58px 25px;
+font-size: 18px;
+text-align: left;
+}
+
+div.btn-orange{
+    text-align: center;
+    font-size: 14px;
+    background-color: #FF8E4F;
+    font-weight: bold;
+    margin: auto;
+    padding: 9px 30px;
+    max-width: 132px;
+    min-height: 42px;
+    max-height: 42px;
+    border-radius: 50px;
+}
+
+div.card{
+    color: #000000;
+    background-color: #ffffff;
+    min-width: 501px;
+    max-width: 501px;
+    min-height: 665px;
+    max-height: 665px;
+    margin:auto;
+    margin-top: 126px;
+    margin-bottom: 50px;
+}
+div.text{
+    background-color: none;
+    margin: none;
+    padding: none;
+    min-width: 397.71px;
+    max-width: 397.71px;
+    min-height: 250px;
+    max-height: 250px;
+    margin: 51px auto 40px;
+}
+
+h2.card.title{
+    min-width: 271.07px;
+    max-width: 271.07px;
+    min-height: 92px;
+    max-height: 92px;
+    margin: 51px 55px 26px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+}
+
+p.card{
+    min-width: 379.71px;
+    max-width: 379.71px;
+    min-height: 52px;
+    max-height: 52px;
+    margin:0px auto 38px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+}
+
+div.btn-white{
+    text-align: center;
+    font-size: 14px;
+    background-color: #ffffff;
+    font-weight: bold;
+    margin: auto;
+    padding: 9px 30px;
+    max-width: 132px;
+    min-height: 42px;
+    max-height: 42px;
+    border-radius: 50px;
+    border: 1px solid #09183F;
+}

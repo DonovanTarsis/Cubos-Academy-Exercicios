@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6a941a;
+}
+section{
+    background-color: #fff;
+    border-radius: 10px;
+}
+section.card-um{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 583px;
+    height: 314px;
+    padding: 30px 30px 0px;
+    margin-bottom: 50px;
+}
+div.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+div.container > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 62px;
+    margin-right: 114px;
+}
+.card-um img.user{
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 8px;
+    box-shadow: #c9c9c991 0px 0px 8px 0px;
+    margin-right: 29px;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+div.container img{
+    width: 146px;
+    height: 54px;  
+}
+div.container-img{
+    justify-content: space-between;
+}
+div.container-img img{
+    width: 164px;
+    height: 123px;  
+}
+section.card-dois{
+    width: 1170px;
+    height: 222px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+}
+section.card-dois img.user{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 7px;
+    box-shadow: #c9c9c991 0px 0px 8px 0px;
+    margin-right: 27px;
+}
+.card-dois > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 143px;
+}
+.card-dois > div > img.btn-user{
+    width: 171px;
+    height: 54px;
+    margin-top: 20px;
+    
+}
+.card-dois div.container-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    width: 688px;
+    height: 162px;
+}
+.card-dois div.container-img img{
+    width: 216px;
+    height: 162px;
+}

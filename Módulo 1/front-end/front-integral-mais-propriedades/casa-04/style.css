@@ -1,0 +1,45 @@
+body{
+    background-color: #456392;
+}
+img{
+    border-radius: 50%;
+    border: 16px;
+    margin: 16px;
+}
+div.card{
+    background-color: #ffffff;
+    border-radius: 20px;
+    max-width: 608px;
+    min-height: 664px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    padding-top: 64px;
+}
+div.foto{
+    background-color: #ECF3FC;
+    width: 238px;
+    height: 238px;
+    border-radius: 50%;
+    margin: 0px 185px 44px;
+
+}
+p.name{
+    max-width: 284px;
+    max-height: 60px;
+    margin: 0px 162px 5px;
+    font-size: 48px;
+    font-weight: bold;
+}
+p.id{
+    margin: 0px 242px 92px;
+    max-width: 284px;
+    max-height: 60px;
+    font-size: 36px;
+}
+p.dados{
+    max-width: 256px;
+    max-height: 90px;
+    margin: 0px 176px 90px;
+    font-size: 36px;
+}

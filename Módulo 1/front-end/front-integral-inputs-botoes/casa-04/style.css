@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+}
+body{
+    background-color: #1F1C44;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    padding: 60px 90px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 517px;
+    height: 765px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 54px;
+}
+button.google{
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: hsl(221, 74%, 63%);
+    width: 337px;
+    height: 69px;
+    padding: 7px 72px;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 55px;
+    border-radius: 5px;
+    color: #fff;
+}
+button.google:hover{
+    background-color: hsl(221, 74%, 68%);
+}
+button.google:active{
+    background-color: hsl(221, 74%, 73%);
+}
+button.google img{
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    padding: 12px 12px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+h6{
+    font-size: 14px;
+    line-height: 18px;
+    color: #949495;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+label{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+input{
+    all: unset;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    width: 337px;
+    height: 70px;
+    padding: 25px 22px;
+    font-size: 16px;
+    line-height: 20px;
+    border: #D9DCED solid 1px;
+    cursor: text;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: #949495;
+}
+input:focus{
+    border: #000 solid 1px;
+}
+button{
+    all: unset;
+    box-sizing: border-box;
+    background-color: hsl(346, 74%, 63%);
+    padding: 21px 123px;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 5px;
+    margin-bottom: 55px;
+    border-radius: 5px;
+    color: #fff;
+}
+button:hover{
+    background-color: hsl(346, 74%, 68%);
+}
+button:active{
+    background-color: hsl(346, 74%, 73%);
+}
+span, a{
+    font-size: 16px;
+    line-height: 20px;
+}
+a{
+    color: #5B86E6;
+}

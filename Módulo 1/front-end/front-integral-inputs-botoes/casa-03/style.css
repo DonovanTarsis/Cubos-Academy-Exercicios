@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8EFEF;
+}
+section{
+    width: 610px;
+    height: 708px;
+    padding: 64px 90px 56px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #fff;
+    box-shadow: rgba(106, 104, 107, 0.445) 0px 0px 10px 0px;
+}
+h1{
+    font-family: 'Rokkitt', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 52px;
+}
+input{
+    all: unset;
+    box-sizing: border-box;
+    width: 430px;
+    height: 73px;
+    padding: 25px;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 5px;
+    border: #CAD6E4 solid 1px;
+    margin-bottom: 16px;
+}
+input::placeholder{
+    font-size: 18px;
+    line-height: 23px;
+    color: #717A90;
+}
+input:focus{
+    border: #000 solid 1px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    padding-bottom: 55px;
+    border-bottom: #CAD6E4 solid 1px;
+    margin-bottom: 35px;
+}
+a{
+    color: #0C6787;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+}
+button.next{
+    all:unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 157px;
+    height: 73px;
+    padding: 35px 20px;
+    font-size: 18px;
+    line-height: 23px;
+    background-color: #046586;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+button.next img{
+    width: 32px;
+    height: 32px;
+}
+button.next:hover{
+    background-color: hsl(195, 94%, 30%);
+}
+button.next:active{
+    background-color: hsl(195, 94%, 35%)
+}
+h6{
+    font-size: 14px;
+    line-height: 18px;
+    color: #838A9E;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+div.buttons{
+    margin-bottom: 60px;
+    padding: 0px;
+    border: none;
+}
+button{
+    all:unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 20px;
+    width: 207px;
+    height: 55px;
+    padding: auto;
+    border: #CAD6E4 solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 95%);
+}
+button:active{
+    background-color: hsl(0, 0%, 90%);
+}
+button img{
+    width: 34px;
+    height: 34px;
+}
+span{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+span a{
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline;
+    color: #046586;
+}

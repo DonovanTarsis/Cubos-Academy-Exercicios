@@ -1,0 +1,87 @@
+body{
+    background-color: #E5E5E5;
+}
+
+
+img.primeira{
+    padding: 84px 376px 5px 85px;
+}
+
+
+div.primeira{
+    color: #101419;
+    background-color: #ffffff;
+    max-width: 505px;
+    min-height: 510px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+
+p.primeira{
+    padding: 0px 97px 38px 85px;
+    text-align: left;
+    font-size: 22px;
+}
+
+
+.name{
+    font-family: 'Open Sans', sans-serif;
+    min-width: 140px;
+    min-height: 28px;
+    padding: 0px 280px 65px 85px;
+    font-size: 14px;
+}
+
+
+
+div.segunda{
+    color: #ffffff;
+    background-color: #101439;
+    max-width: 431px;
+    min-height: 391px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.segunda, .inscreva, .aviso, .btn{
+    margin: 0px;
+}
+
+p.segunda{
+    font-size: 14px;
+    max-width: 125;
+    min-height: 28;
+    padding: 60px 266px 10px 60px;
+}
+p.inscreva{
+    font-family:'Merriweather', serif;
+    font-size: 22px;
+    max-width: 306;
+    min-height: 32;
+    padding: 0px 65px 13px 60px;
+}
+p.aviso{
+    font-size: 18px;
+    max-width: 306px;
+    min-height: 56px;
+    padding: 0px 65px 55px 60px;
+}
+div.btn{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 0px 60px 60px 60px;
+}
+h1.btn{
+    font-size: 18px;
+    font-weight: bold;
+    color: #101439;
+    max-width: 109px;
+    min-height: 28px;
+    padding: 25px 101px 24px 101px;
+}

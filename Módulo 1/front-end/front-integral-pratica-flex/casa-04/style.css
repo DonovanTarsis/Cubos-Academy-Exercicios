@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #000;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: #fff;
+    width: 666px;
+    height: 368px;
+    padding: 60px 50px 54px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+div.top{
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 33px;
+}
+h1{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+div.container{
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 195px;
+    border-radius: 10px;
+}
+div.friend{
+    width: 135px;
+    height: 195px;
+    border-radius: 10px;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #77747434 0px 0px 0px 1px;
+}
+img.user{
+    box-sizing: content-box;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+h2{
+    box-sizing: content-box;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 22px;
+}
+img.add{
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 50%;
+}
+section.card-dois{
+    display: flex;
+    flex-direction: column;
+    width: 451px;
+    height: 653px;
+    padding: 50px 38px 50px 62px;
+}
+div.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+    margin-bottom: 55px;
+}
+h1.circulo{
+    box-sizing: border-box;
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 50%;
+    border: #000 solid 1px;
+    margin-left: 10px;
+}
+div.contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
+    height: 66px;
+    margin-bottom: 30px;
+}
+section.card-dois > div > div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 131px;
+    margin-left: 20px;
+}
+section.card-dois > div > div > h2{
+    margin-bottom: 5px;
+}
+h4{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0px;
+}
+a.btn{
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    width: 165px;
+    height: 55px;
+    padding: 18px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
