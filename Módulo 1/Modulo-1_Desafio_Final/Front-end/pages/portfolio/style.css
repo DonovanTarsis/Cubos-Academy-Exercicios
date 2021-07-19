@@ -1,0 +1,57 @@
+body{
+    height: 2894px;
+}
+header{
+    margin-bottom: 94px;
+}
+
+
+
+.main{
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 80px;
+}
+.main__img{
+    width: 540px;
+    height: 500px;
+}
+.main__div{
+    border-top: #33323D0e solid 1px;
+    border-bottom: #33323D0e solid 1px;
+    width: 350px;
+    justify-content: initial;
+    align-items: center;
+}
+.main__div__h2{
+    margin: 103px auto 28px 0px;
+
+}
+.main__div__p{
+    text-align: left;
+    margin-bottom: 24px;
+}
+.main__div__a{
+    display: block;
+}
+.main__div__a__btn-portfolio{
+    padding: 17px 28px;
+}
+
+
+
+.section{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+.section__h2{
+    width: 367px;
+    text-align: left;
+}
+.section__btn{
+    padding: 17px 50px;
+}
