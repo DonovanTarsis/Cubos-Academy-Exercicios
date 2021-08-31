@@ -1,0 +1,28 @@
+{
+	"enderecos": [
+		{
+			"cep": "01001-000",
+			"logradouro": "Praça da Sé",
+			"complemento": "lado ímpar",
+			"bairro": "Sé",
+			"localidade": "São Paulo",
+			"uf": "SP",
+			"ibge": "3550308",
+			"gia": "1004",
+			"ddd": "11",
+			"siafi": "7107"
+		},
+		{
+			"cep": "36546-000",
+			"logradouro": "",
+			"complemento": "",
+			"bairro": "",
+			"localidade": "Divinésia",
+			"uf": "MG",
+			"ibge": "3121902",
+			"gia": "",
+			"ddd": "32",
+			"siafi": "4437"
+		}
+	]
+}

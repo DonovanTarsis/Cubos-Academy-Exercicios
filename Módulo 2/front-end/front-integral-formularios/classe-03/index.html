@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>
+        Escolha um gênero e receba uma sugestão de música.
+    </h1>
+    <form action="https://www.google.com.br/search" target="_blank" method="GET">
+        <div class="display-none">
+            <input class="input-query" id="nome" type="text" name="q">
+        </div>
+        <div>
+            <label for="genero">Gênero</label>
+            <select id="genero">
+                <option value="Selecionar">Selecionar</option>
+                <option value="sertanejo">Sertanejo</option>
+                <option value="rock">Rock</option>
+                <option value="eletronica">Eletronica</option>
+            </select>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

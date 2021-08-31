@@ -1,0 +1,44 @@
+{
+	"empresas": [
+		{
+			"name": "Airbnb",
+			"domain": "airbnb.com",
+			"year_founded": 2008,
+			"industry": "Internet",
+			"employees_count": 14604,
+			"locality": "San Francisco",
+			"country": "United States",
+			"linkedin_url": "linkedin.com/company/airbnb"
+		},
+		{
+			"name": "Google",
+			"domain": "google.com",
+			"year_founded": 1998,
+			"industry": "Internet",
+			"employees_count": 219238,
+			"locality": "Mountain View",
+			"country": "United States",
+			"linkedin_url": "linkedin.com/company/google"
+		},
+		{
+			"name": "Youtube",
+			"domain": "youtube.com",
+			"year_founded": 2005,
+			"industry": "Internet",
+			"employees_count": 84594,
+			"locality": "San Bruno",
+			"country": "United States",
+			"linkedin_url": "linkedin.com/company/youtube"
+		},
+		{
+			"name": "Globo.Com",
+			"domain": "globo.com",
+			"year_founded": 2000,
+			"industry": "Internet",
+			"employees_count": 1175,
+			"locality": "Rio De Janeiro",
+			"country": "Brazil",
+			"linkedin_url": "linkedin.com/company/globo-com"
+		}
+	]
+}

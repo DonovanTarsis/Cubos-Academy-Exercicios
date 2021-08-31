@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    position: relative;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    height: 25px;
+    background-color: #fff;
+    border: #ff0000 solid 1px;
+    margin-bottom: 2px;
+}
+.display-none{
+    display: none;
+}

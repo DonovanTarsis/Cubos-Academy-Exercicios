@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Slider</title>
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <div class="text-wrapper">
+            <p class="review-text">“Estive interessada em código por um tempo mas não tomava uma atitude, até agora. Não
+                consigo recomendar esse curso o suficiente. Estou no trabalho dos meu sonhos e vejo um futuro
+                brilhante!”</p>
+            <div class="author__content-wrapper">
+                <div class="author__name">Gabriela da Silva</div>
+                <div class="author__title">Desenvolvedora Fullstack</div>
+            </div>
+        </div>
+
+        <div class="carousel">
+            <div class="carousel__img-wrapper">
+                <img src="./assets/gabriela.jpg" alt="bootcamp graduate" class="carousel__img">
+            </div>
+            <div class="carousel__btn-wrapper">
+                <button id="btn-prev" class="btn btn--previous" onclick="pessoaAnterior()"><img
+                        src="./assets/icon-prev.svg" alt="previous button"></button>
+                <button id="btn-next" class="btn btn--next" onclick="proximaPessoa()"><img src="./assets/icon-next.svg"
+                        alt="next button"></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    const pessoas = [{
+        nome: 'Gabriela da Silva',
+        profissao: 'Desenvolvedora Fullstack',
+        descricao: '“Estive interessada em código por um tempo mas não tomava uma atitude, até agora. Não consigo recomendar esse curso o suficiente. Estou no trabalho dos meu sonhos e vejo um futuro brilhante!”',
+        foto: './assets/gabriela.jpg'
+    }, {
+        nome: 'João Nogueira',
+        profissao: 'Desenvolvedor Front-end',
+        descricao: '“Se você quiser ter a melhor base possível, recomendo fazer este curso. A profundidade em que os instrutores entram é incrível. Agora me sinto muito confiante em começar como um desenvolvedor profissional.”',
+        foto: './assets/joao.jpg'
+    }];
+    let name = document.querySelector(".author__name");
+    let title = document.querySelector(".author__title");
+    let review = document.querySelector(".review-text");
+    let img = document.querySelector(".carousel__img");
+    function pessoaAnterior() {
+        for (let i = 0; i < pessoas.length; i++) {
+            if (pessoas[i].nome === name.innerText) {
+                if (i === 0) {
+                    name.innerText = pessoas[pessoas.length -1].nome;
+                    title.innerText = pessoas[pessoas.length -1].profissao;
+                    review.innerText = pessoas[pessoas.length -1].descricao;
+                    img.src = `${pessoas[pessoas.length -1].foto}`
+                    break
+                } else {
+                    name.innerText = pessoas[i -1].nome;
+                    title.innerText = pessoas[i -1].profissao;
+                    review.innerText = pessoas[i -1].descricao;
+                    img.src = `${pessoas[i -1].foto}`
+                    break
+                }
+            }
+        };
+    }
+    function proximaPessoa() {
+        for (let i = 0; i < pessoas.length; i++) {
+            if (pessoas[i].nome === name.innerText) {
+                if (i === pessoas.length - 1) {
+                    name.innerText = pessoas[0].nome;
+                    title.innerText = pessoas[0].profissao;
+                    review.innerText = pessoas[0].descricao;
+                    img.src = `${pessoas[0].foto}`;
+                    break
+                } else {
+                    name.innerText = pessoas[i + 1].nome;
+                    title.innerText = pessoas[i + 1].profissao;
+                    review.innerText = pessoas[i + 1].descricao;
+                    img.src = `${pessoas[i + 1].foto}`;
+                    break
+                }
+            }
+        };
+    }
+</script>
+
+</html>

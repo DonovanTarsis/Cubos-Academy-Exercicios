@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.preencher{
+    border: red solid 2px;
+}
+.display-none{
+    display: none;
+}
