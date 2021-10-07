@@ -1,0 +1,77 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #456392;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.App{
+  width: 1238px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+div.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 302px;
+  height: 410px;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+}
+img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: #ECF3FC solid 16px;
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+  margin: 100px 80px 30px;
+
+}
+p.name{
+  display: flex;
+  flex-wrap: nowrap;
+  max-height: 60px;
+  margin: 0px 0px 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
+p.id{
+  margin-bottom:69px;
+  max-height: 60px;
+  font-size: 18px;
+}
+p.dados{
+  height: 23px;
+  margin: 0px 0px;
+  font-size: 18px;
+}
+p.seguidores{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+}
+p.seguindo{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 90px;
+}

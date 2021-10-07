@@ -1,0 +1,3 @@
+const privateKeyTokenGenerate = "KaJ1s13g955S4bvsd51aVvfaasf54836a41fd35a1445"
+
+module.exports = privateKeyTokenGenerate
