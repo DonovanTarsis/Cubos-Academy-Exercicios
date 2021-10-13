@@ -1,58 +1,5 @@
 {
   "transactions": [
-    {
-      "date": "2021-10-08T03:00:00.000Z",
-      "week_day": "Sexta",
-      "description": "Salário mensal",
-      "value": 500000,
-      "category": "Salário",
-      "type": "credit",
-      "id": 1
-    },
-    {
-      "date": "2021-10-09T03:00:00.000Z",
-      "week_day": "Sábado",
-      "description": "Vale alimentação",
-      "value": " 95000",
-      "category": "Vale alimentação",
-      "type": "credit",
-      "id": 2
-    },
-    {
-      "date": "2021-10-10T03:00:00.000Z",
-      "week_day": "Domingo",
-      "description": "Benefícios além do VA",
-      "value": 205000,
-      "category": "Benefícios",
-      "type": "credit",
-      "id": 3
-    },
-    {
-      "date": "2021-10-12T03:00:00.000Z",
-      "week_day": "Terça",
-      "description": "Viagem Casa Gui",
-      "value": 150000,
-      "category": "Férias",
-      "type": "debit",
-      "id": 4
-    },
-    {
-      "date": "2021-12-13T03:00:00.000Z",
-      "week_day": "Segunda",
-      "description": "Cerveja",
-      "value": 15000,
-      "category": "Férias",
-      "type": "debit",
-      "id": 5
-    },
-    {
-      "date": "2021-12-21T03:00:00.000Z",
-      "week_day": "Terça",
-      "description": "viagem",
-      "value": 15000,
-      "category": "Férias",
-      "type": "debit",
-      "id": 6
-    }
+    
   ]
 }
