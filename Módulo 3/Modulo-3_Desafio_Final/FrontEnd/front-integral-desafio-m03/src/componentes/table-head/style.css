@@ -1,0 +1,108 @@
+.table-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 27px;
+  
+    width: 964px;
+    height: 58px;
+  
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .data-column{
+    width: 33.77px;
+    height: 17px;
+    margin-right: 100px;
+  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+  
+    display: flex;
+    align-items: center;
+  
+    color: #000000;
+  
+  }
+  
+  .day-column{
+    width: 95px;
+    height: 17px;
+    margin-right: 25px;
+    
+  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #000000;
+  }
+  
+  .descricao-column{
+    
+    height: 17px;
+    margin: auto 100px;
+  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  
+    display: flex;
+    align-items: center;
+  
+    color: #000000;
+  }
+  
+  .category-column{
+    width: 118px;
+    height: 17px;
+    margin-right: 65px;
+  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #000000;
+  }
+  
+  .valor-column{
+    width: 85px;
+    height: 17px;
+  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #000000;
+  }
+
+  .hidden{
+    display: none;
+  }

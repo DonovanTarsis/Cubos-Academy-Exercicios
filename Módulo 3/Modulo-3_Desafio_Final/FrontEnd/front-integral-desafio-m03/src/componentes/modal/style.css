@@ -1,0 +1,170 @@
+.modal{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: #3D3D3D7A;
+  }
+  
+  .modal-container{
+    position: relative;
+    width: 611px;
+    height: 879px;
+    padding: 60px 62px 52px 64px;
+  
+    background: #FFFFFF;
+    border-radius: 20px;
+  }
+  
+  .close-icon{
+    position: absolute;
+    right: 65px;
+    top: 67px;
+  }
+  
+  .modal-title{
+    height: 43px;
+  
+  
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+  
+  
+    color: #000000;
+    margin-bottom: 52px;
+  }
+  
+  .modal-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .credit-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    width: 245px;
+    height: 60px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #FFFFFF;
+  
+  
+    background: linear-gradient(91.26deg, #05EDE3 0%, #3A9FF1 97.77%);
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  .container-btn{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+  }
+  
+  .debit-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    width: 245px;
+    height: 60px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #FFFFFF;
+  
+  
+    background: linear-gradient(91.66deg, #FA8C10 0%, #FF576B 90.32%);
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+  .inactive-btn{
+    background: #B9B9B9;
+  }
+  
+  .modal-div{
+    width: 485px;
+    height: 104px;
+    margin-bottom: 26px;
+  }
+  
+  .modal-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 111.92px;
+    height: 31.74px;
+    margin-bottom: 9px;
+  
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  
+    color: #484848;
+  }
+  
+  .modal-div-input{
+    width: 485px;
+    height: 63.49px;
+    padding: 21px 24px 22px;
+  
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  .btn-insert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 236px;
+    height: 42px;
+    background: #645FFB;
+    border-radius: 5px;
+    margin-top: 19px;
+  
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #FFFFFF;
+  }
+
+  .hidden{
+    display: none;
+  }
