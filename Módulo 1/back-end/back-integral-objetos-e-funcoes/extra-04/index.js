@@ -21,10 +21,11 @@ const contaBancaria = {
                 valor: valor
             }
             this.historicos.push(registro);
-        }console.log(`Saque de R$${(valor / 100).toFixed(2)} realizado para o cliente: ${this.nome}.`);
+            console.log(`Saque de R$${(valor / 100).toFixed(2)} realizado para o cliente: ${this.nome}.`);
+        }
     },
     extrato: function (){
-        console.log(`Extrato de ${this.nome} - Saldo: R$${this.saldo}`);
+        console.log(`Extrato de ${this.nome} - Saldo: R$${(this.saldo / 100).toFixed(2)}`);
         console.log("Histórico:");
         for (let item of this.historicos) {
             console.log(`${item.tipo} de $${(item.valor / 100).toFixed(2)}`);
